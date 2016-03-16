@@ -36,7 +36,7 @@ question2();
 function question3() {
 	var js = prompt('What was the original name for JavaScript: Java, LiveScript, JavaLive, or ScriptyScript?');
 	if (firstQuestion === null) {
-    	alert("Please answer either Java, LiveScript, JavaLive, or ScriptyScript");
+		alert("Please answer either Java, LiveScript, JavaLive, or ScriptyScript");
 		return question3();
 	}
 	js = js.toLowerCase();

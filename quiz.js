@@ -43,22 +43,22 @@ function question3() {
 	var firstQuestion;
 
 	switch (js) {
-    	case "java":
-    		firstQuestion = false;
-    		break;
-    	case "livescript":
-    		firstQuestion = true;
-    		break;
-    	case "javalive":
-    		firstQuestion = false;
-    		break;
-    	case "scriptyscript":
-    		firstQuestion = false;
-    		break;
-    	default:
-    		alert("Please answer either Java, LiveScript, JavaLive, or ScriptyScript");
+		case "java":
+			firstQuestion = false;
+			break;
+		case "livescript":
+			firstQuestion = true;
+			break;
+		case "javalive":
+			firstQuestion = false;
+			break;
+		case "scriptyscript":
+			firstQuestion = false;
+			break;
+		default:
+			alert("Please answer either Java, LiveScript, JavaLive, or ScriptyScript");
 			return question3();
-    		break;
+			break;
 	}
 
 	responses.push(firstQuestion);
